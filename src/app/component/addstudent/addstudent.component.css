@@ -1,0 +1,57 @@
+h1 {
+    background-color: blueviolet;
+    color: cadetblue;
+    text-align: center;
+    width: 60%;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 5px;
+    border-bottom: 1px solid steelblue;
+}
+
+div,
+div * {
+    padding: 10px;
+    margin: 10px auto;
+    width: 70%;
+}
+
+div * {
+    height: 25px;
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input[type=number] {
+    height: 50px;
+}
+
+input[type=text] {
+    height: 50px;
+}
+
+input[type=button],
+input[type=button]:hover,
+input[type=button]:active {
+    background-color: thistle;
+    width: 25%;
+    height: 50px;
+    padding: 3px;
+    border-radius: 5px;
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: bold;
+    color: teal;
+    transition: 0.25s;
+    box-shadow: 2 2 3 gray;
+}
+
+input[type=button]:hover {
+    cursor: pointer;
+    color: rgb(56, 56, 122);
+}
+
+input[type=button]:active {
+    transform: scale(.8);
+}

@@ -1,0 +1,21 @@
+<h1 class="text-center">Student Datails</h1>
+<table class="table table-striped">
+
+    <thead>
+        <th>name</th>
+        <th>age</th>
+        <th>Update</th>
+        <th>Delete</th>
+    </thead>
+    <tbody>
+        <tr>
+
+            <td><input #name type="text" value={{student.name}} class="name"> </td>
+            <td><input #age type="text" value={{student.age}} class="age"> </td>
+            <td><input type="button" value="UPdate" class="btn-success" (click)="update(name.value,age.value)"></td>
+            <td><input type="button" value="Delete" class="btn-success" (click)="Delete()"></td>
+
+        </tr>
+    </tbody>
+
+</table>
